@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "alias": "bleek42-noteful-client",
+    "name": "noteful-app-bleek",
+    "routes": [
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/.*",
+            "dest": "/index.html"
+        }
+    ]
+}
