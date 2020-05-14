@@ -44,7 +44,7 @@ export default class AddNote extends React.Component {
       name: this.state.name,
       content: this.state.content,
       modified: new Date(),
-      folder_d: event.target[`folder-select`].value,
+      folder_id: event.target[`folder-select`].value,
     };
     fetch(`${config.API_ENDPOINT}/notes/`, {
       method: 'POST',
